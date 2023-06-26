@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".sobrenosotros">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Sobre Nosotros"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDescripcion"
+        android:layout_marginTop="16dp"
+        android:text="Nolonecesito.com es una empresa que compra articulos: libros,CD,DVD y juegos de computador o de consolas de segunda mano al publico a traves de un sitio web y luego los envia a su empresa matiz: ACME."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescripcion"
+        android:layout_marginTop="16dp"
+        android:text="ACME es una conocida tienda online de venta de libros, CDs, DVDs y juegos de computador de segunda mano, los mayores mercados de ACME son autralia (porque Amazon no ha tenido presencia allí hasta hace muy poco) y ahora esta en china vendiendo libros de texto escolares escritos en ingles."
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/librosretro" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="CEO:ACME"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <!-- Agrega más elementos de diseño según tus necesidades -->
+
+</LinearLayout>

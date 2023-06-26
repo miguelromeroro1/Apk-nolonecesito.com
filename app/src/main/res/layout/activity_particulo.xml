@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".particulo">
+
+    <TextView
+        android:id="@+id/txtTituloPublicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publicar tu Artículo"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTituloPublicar"
+        android:text="Título del Artículo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="8dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTitulo"
+        android:layout_marginTop="16dp"
+        android:text="Descripción del Artículo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescripcion"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/btnSubirImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescripcion"
+        android:layout_marginTop="16dp"
+        android:text="Subir Imagen" />
+
+    <ImageView
+        android:id="@+id/imgArticulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubirImagen"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop" />
+
+
+    <Button
+        android:id="@+id/btnPublicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubirImagen"
+        android:layout_marginTop="16dp"
+        android:text="Publicar" />
+
+    <!-- Agrega más elementos de diseño según tus necesidades -->
+
+</RelativeLayout>

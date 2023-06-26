@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".apopulares">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artículos Populares"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtArticulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgArticulo1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtArticulo1"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/nintendo" />
+
+    <TextView
+        android:id="@+id/txtDescripcionArticulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgArticulo1"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtArticulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescripcionArticulo1"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgArticulo2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtArticulo2"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/librosretro" />
+
+    <TextView
+        android:id="@+id/txtDescripcionArticulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgArticulo2"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtArticulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescripcionArticulo2"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgArticulo3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtArticulo3"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/dvdsjuegos" />
+
+    <TextView
+        android:id="@+id/txtDescripcionArticulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgArticulo3"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

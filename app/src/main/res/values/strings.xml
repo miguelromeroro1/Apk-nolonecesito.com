@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nolonecesito</string>
+    <string-array name="menu_items">
+        <item>Sobre nosotros</item>
+        <item>Artículos populares</item>
+        <item>Contactanos</item>
+        <item>Publica tu artículo</item>
+    </string-array>
+</resources>
