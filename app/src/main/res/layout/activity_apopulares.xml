@@ -37,7 +37,7 @@
         android:layout_height="200dp"
         android:layout_below="@id/txtArticulo1"
         android:layout_marginTop="16dp"
-        android:src="@drawable/nintendo" />
+        android:src="@drawable/play" />
 
     <TextView
         android:id="@+id/txtDescripcionArticulo1"
@@ -61,7 +61,7 @@
         android:layout_height="200dp"
         android:layout_below="@id/txtArticulo2"
         android:layout_marginTop="16dp"
-        android:src="@drawable/librosretro" />
+        android:src="@drawable/libros" />
 
     <TextView
         android:id="@+id/txtDescripcionArticulo2"
@@ -85,7 +85,7 @@
         android:layout_height="200dp"
         android:layout_below="@id/txtArticulo3"
         android:layout_marginTop="16dp"
-        android:src="@drawable/dvdsjuegos" />
+        android:src="@drawable/juegos" />
 
     <TextView
         android:id="@+id/txtDescripcionArticulo3"

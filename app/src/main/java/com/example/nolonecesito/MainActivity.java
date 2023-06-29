@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = editTextPassword.getText().toString();
 
                 // Verificación de las credenciales
-                if (username.equals("prueba@gmail.com") && password.equals("prueba")) {
+                if (username.equals("miguel") && password.equals("123")) {
                     // Credenciales válidas
                     Toast.makeText(MainActivity.this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
                     Intent buttonLogin = new Intent(MainActivity.this, inicio.class);

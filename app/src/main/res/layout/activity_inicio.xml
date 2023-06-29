@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/disco"
+    android:background="@drawable/play"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:onClick="publicarArticulo"
-        android:text="Publica tu artículo" />
+        android:text="Publica tus productos" />
 
     <Button
         android:id="@+id/btnArticulosPopulares"
@@ -25,7 +25,7 @@
         android:layout_below="@id/btnPublicarArticulo"
         android:layout_marginBottom="16dp"
         android:onClick="verArticulosPopulares"
-        android:text="Artículos populares" />
+        android:text="productos destacados" />
 
     <Button
         android:id="@+id/btnSobreNosotros"
@@ -34,7 +34,7 @@
         android:layout_below="@id/btnArticulosPopulares"
         android:layout_marginBottom="16dp"
         android:onClick="verSobreNosotros"
-        android:text="Sobre nosotros" />
+        android:text="quienes somos" />
 
     <Button
         android:id="@+id/btnContacto"

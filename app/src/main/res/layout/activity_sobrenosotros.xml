@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_marginTop="8dp"
         android:layout_height="128dp"
-        app:srcCompat="@drawable/librosretro" />
+        app:srcCompat="@drawable/libros" />
 
     <TextView
         android:id="@+id/txtTitulo"
